@@ -230,11 +230,11 @@ export default function SecretSantaResults() {
                         secondary={
                           <>
                             <Typography component="span" variant="body2">
-                              Giver's Email: {assignment.giver.email}
+                              Giver&apos;s Email: {assignment.giver.email}
                             </Typography>
                             <br />
                             <Typography component="span" variant="body2">
-                              Receiver's Email: {assignment.receiver.email}
+                              Receiver&apos;s Email: {assignment.receiver.email}
                             </Typography>
                           </>
                         }
@@ -266,7 +266,7 @@ export default function SecretSantaResults() {
             </>
           ) : (
             <Typography variant="body1" color="text.secondary" align="center">
-              No assignments generated yet. Click the "Generate New Assignments" button to create Secret Santa pairs.
+              No assignments generated yet. Click the &quot;Generate New Assignments&quot; button to create Secret Santa pairs.
             </Typography>
           )}
         </>
